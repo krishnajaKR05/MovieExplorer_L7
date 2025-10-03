@@ -6,13 +6,15 @@ import { swaggerUi, specs } from "./swagger.js";
 
 connectDB("mongodb://localhost:27017/", "movie_explorer_L7");
 
-
 const app = express();
-app.use(cors({
-  origin: "http://localhost:5173", // frontend URL
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 app.use("/movie", Routes);

@@ -14,10 +14,17 @@ const InfoModal = ({ show, onClose, title, details }) => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">{title}</h5>
-            <button type="button" className="btn-close" onClick={onClose}></button>
+            <button
+              type="button"
+              className="btn-close"
+              onClick={onClose}
+            ></button>
           </div>
           <div className="modal-body">
-            <p><label className="form-labal">BIO :</label>{details.bio}</p>
+            <p>
+              <label className="form-labal">BIO :</label>
+              {details.bio}
+            </p>
             {details.movies.length > 0 && (
               <>
                 <strong>Movies:</strong>
@@ -28,7 +35,6 @@ const InfoModal = ({ show, onClose, title, details }) => {
                 </ul>
               </>
             )}
-            
           </div>
         </div>
       </div>

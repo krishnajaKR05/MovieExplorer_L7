@@ -1,4 +1,5 @@
 import axios from "axios";
+
 const BASE_URL = "http://localhost:5000/movie";
 
 export const fetchMovieList = async (req, res) => {
@@ -70,6 +71,6 @@ export const fetchActors = async (req = {}) => {
             : error.response.statusText,
       };
     }
-    throw error; // network/other errors
+    throw error;
   }
 };

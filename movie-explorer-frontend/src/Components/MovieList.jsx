@@ -7,7 +7,11 @@ const MovieList = () => {
   const [filterType, setFilterType] = useState("");
   const [searchValue, setSearchValue] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [modalData, setModalData] = useState({ show: false, title: "", details: {} });
+  const [modalData, setModalData] = useState({
+    show: false,
+    title: "",
+    details: {},
+  });
   const moviesPerPage = 6;
 
   const fetchMovies = async () => {
@@ -52,23 +56,31 @@ const MovieList = () => {
 
     try {
       if (type === "actor") {
-        const response = await fetchActors({ name: title }); 
-        console.log("responsefetchActors",response);
+        const response = await fetchActors({ name: title });
+        console.log("responsefetchActors", response);
         if (response.status !== 200) {
-          currentDetails = {"title":title,"bio":"nothing found"};
+          currentDetails = { title: title, bio: "nothing found" };
         } else {
-          currentDetails = {"title":title, "bio":response.data.actor.bio,"movies":response.data.movies};
+          currentDetails = {
+            title: title,
+            bio: response.data.actor.bio,
+            movies: response.data.movies,
+          };
         }
       }
 
       if (type === "director") {
         const response = await fetchDirectors({ name: title });
-                console.log("responsefetchDirectors",response);
+        console.log("responsefetchDirectors", response);
 
         if (response.status !== 200) {
-          currentDetails = {"title":title,"bio":"nothing found"};
+          currentDetails = { title: title, bio: "nothing found" };
         } else {
-          currentDetails = {"title":title, "bio":response.data.director.bio,"movies":response.data.movies};
+          currentDetails = {
+            title: title,
+            bio: response.data.director.bio,
+            movies: response.data.movies,
+          };
         }
       }
     } catch (err) {

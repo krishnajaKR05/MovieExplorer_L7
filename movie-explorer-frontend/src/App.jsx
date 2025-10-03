@@ -9,15 +9,13 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowWelcome(false);
-    }, 3000); 
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="main">
-      {showWelcome ? <WelcomePage /> : <MovieList />}
-    </div>
+    <div className="main">{showWelcome ? <WelcomePage /> : <MovieList />}</div>
   );
 }
 
