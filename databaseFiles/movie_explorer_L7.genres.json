@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bb8"
+  },
+  "name": "Action"
+},
+{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bb9"
+  },
+  "name": "Comedy"
+},
+{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bba"
+  },
+  "name": "Drama"
+},
+{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bbb"
+  },
+  "name": "Sci-Fi"
+},
+{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bbc"
+  },
+  "name": "Romance"
+},
+{
+  "_id": {
+    "$oid": "68df77edebdfe217ec9f4bbd"
+  },
+  "name": "Horror"
+}]

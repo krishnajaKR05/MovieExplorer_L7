@@ -1,0 +1,336 @@
+[{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa4e"
+  },
+  "title": "Inception",
+  "releaseYear": 2010,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbb"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde59"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef1"
+    }
+  ],
+  "rating": 8.8,
+  "reviews": [
+    "Amazing!",
+    "Mind-blowing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa4f"
+  },
+  "title": "Titanic",
+  "releaseYear": 1997,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bba"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbc"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde59"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef1"
+    },
+    {
+      "$oid": "68df7718f711166ecd01bef5"
+    }
+  ],
+  "rating": 7.8,
+  "reviews": [
+    "Heartbreaking",
+    "Beautifully shot"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa50"
+  },
+  "title": "Pulp Fiction",
+  "releaseYear": 1994,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bb9"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5b"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef2"
+    }
+  ],
+  "rating": 8.9,
+  "reviews": [
+    "Classic!",
+    "Tarantino style"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa51"
+  },
+  "title": "Jurassic Park",
+  "releaseYear": 1993,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbb"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5a"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef6"
+    }
+  ],
+  "rating": 8.1,
+  "reviews": [
+    "Thrilling",
+    "Dino fun!"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa52"
+  },
+  "title": "Avengers",
+  "releaseYear": 2012,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbb"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5a"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef3"
+    }
+  ],
+  "rating": 8,
+  "reviews": [
+    "Epic",
+    "Action-packed"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa53"
+  },
+  "title": "The Shawshank Redemption",
+  "releaseYear": 1994,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bba"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5a"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef4"
+    }
+  ],
+  "rating": 9.3,
+  "reviews": [
+    "Masterpiece",
+    "Emotional"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa54"
+  },
+  "title": "Black Swan",
+  "releaseYear": 2010,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bba"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbc"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5b"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef5"
+    }
+  ],
+  "rating": 8,
+  "reviews": [
+    "Intense",
+    "Beautiful"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa55"
+  },
+  "title": "Fight Club",
+  "releaseYear": 1999,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bba"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5b"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef2"
+    }
+  ],
+  "rating": 8.8,
+  "reviews": [
+    "Cult classic",
+    "Dark humor"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa56"
+  },
+  "title": "Forrest Gump",
+  "releaseYear": 1994,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bba"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbc"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5a"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef6"
+    }
+  ],
+  "rating": 8.8,
+  "reviews": [
+    "Heartwarming",
+    "Inspirational"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa57"
+  },
+  "title": "Iron Man",
+  "releaseYear": 2008,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbb"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde59"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef3"
+    }
+  ],
+  "rating": 7.9,
+  "reviews": [
+    "Exciting",
+    "Great CGI"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa58"
+  },
+  "title": "The Matrix",
+  "releaseYear": 1999,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb8"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbb"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde59"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef2"
+    }
+  ],
+  "rating": 8.7,
+  "reviews": [
+    "Revolutionary",
+    "Iconic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68df83ebe957987ba64baa59"
+  },
+  "title": "La La Land",
+  "releaseYear": 2016,
+  "genres": [
+    {
+      "$oid": "68df77edebdfe217ec9f4bb9"
+    },
+    {
+      "$oid": "68df77edebdfe217ec9f4bbc"
+    }
+  ],
+  "director": {
+    "$oid": "68df777039a510a509fbde5b"
+  },
+  "actors": [
+    {
+      "$oid": "68df7718f711166ecd01bef5"
+    }
+  ],
+  "rating": 8,
+  "reviews": [
+    "Musical delight",
+    "Charming"
+  ]
+}]

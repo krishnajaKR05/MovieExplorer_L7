@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef1"
+  },
+  "name": "Leonardo DiCaprio",
+  "bio": "Oscar-winning actor known for Inception, Titanic"
+},
+{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef2"
+  },
+  "name": "Brad Pitt",
+  "bio": "Famous for Fight Club, Once Upon a Time in Hollywood"
+},
+{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef3"
+  },
+  "name": "Scarlett Johansson",
+  "bio": "Known for Avengers and Lost in Translation"
+},
+{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef4"
+  },
+  "name": "Morgan Freeman",
+  "bio": "Legendary actor in Shawshank Redemption, Seven"
+},
+{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef5"
+  },
+  "name": "Natalie Portman",
+  "bio": "Starred in Black Swan, V for Vendetta"
+},
+{
+  "_id": {
+    "$oid": "68df7718f711166ecd01bef6"
+  },
+  "name": "Tom Hanks",
+  "bio": "Iconic actor from Forrest Gump, Cast Away"
+}]

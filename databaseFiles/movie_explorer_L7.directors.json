@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "68df777039a510a509fbde59"
+  },
+  "name": "Christopher Nolan",
+  "bio": "Famous for mind-bending films like Inception and Interstellar"
+},
+{
+  "_id": {
+    "$oid": "68df777039a510a509fbde5a"
+  },
+  "name": "Steven Spielberg",
+  "bio": "Renowned filmmaker of Jurassic Park and E.T."
+},
+{
+  "_id": {
+    "$oid": "68df777039a510a509fbde5b"
+  },
+  "name": "Quentin Tarantino",
+  "bio": "Known for stylistic violence in Pulp Fiction, Kill Bill"
+}]
