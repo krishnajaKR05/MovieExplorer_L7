@@ -1,20 +1,27 @@
 import { getDb } from "../config/db.js"; 
 
-export const getActors = async (req,res) => {
+export const getActorInfo = async (req, res) => {
   try {
-    const actorName = req.query.name;
-        console.log("actors",actorName);
-
+    const name  = req.query.name;
     const db = getDb();
-    const actors = await db.collection("actors").find({name: { $regex: actorName, $options: "i" } }).toArray();
 
-    if (actors.length === 0) {
-      return res.status(404).json({ message: "no details found" });
+    const actor = await db.collection('actors').findOne({ name: { $regex: `^${name}$`, $options: 'i' } });
+    if (!actor) {
+      return res.status(404).json({ message: 'Actor not found' });
     }
 
-    res.json(actors);
+    const movies = await db.collection('movies')
+      .find({ actors: actor._id })
+      .project({ title: 1, _id: 0 })
+      .toArray();
+
+    res.json({
+      actor: { _id: actor._id, name: actor.name, bio: actor.bio },
+      movies: movies.map(m => m.title)
+    });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
   }
 };
 
